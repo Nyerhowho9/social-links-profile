@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --green: hsl(75, 94%, 57%);
+    --white: hsl(0, 0%, 100%);
+    --grey: hsl(0, 0%, 20%);
+    --dgrey: hsl(0, 0%, 12%);
+    --oblack: hsl(0, 0%, 8%);
+}
+body{
+    background-color: var(--oblack);
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+    "slnt" 0;
+}
+main{
+    width: 90%;
+    background-color: var(--dgrey);
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 15px;
+    height:700px;
+
+}
+.profile-pic{
+    text-align: center;
+}
+.profile-pic > img{
+    border-radius: 50%;
+    margin-top: 30px;
+
+}
+.profile-details{
+    width: 90%;
+    margin: auto;
+   margin-top: 30px;
+}
+h1{
+    font-weight: 700;
+    text-align: center;
+    font-size: 26px;
+    color: var(--white);
+}
+h4{
+    font-weight: 600;
+    text-align: center;
+    color: var(--green);
+    margin-top: 10px;
+
+}
+.description{
+    font-weight: 400;
+    text-align: center;
+    color: var(--white);
+    margin-top: 25px;    
+    font-size: 14px;
+
+}
+.links{
+    width: 90%;
+    margin: auto;
+   margin-top: 30px;
+}
+.links > div{
+    background-color: var(--grey);
+    height: 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 15px;
+
+
+}
+.links > div:hover{
+    background-color: var(--green);
+}
+.links > div > a {
+    text-decoration: none;
+    color: var(--white);
+    font-weight: 600;
+}
+.github{
+    background-color: var(--grey);
+}
+.attribution{
+    color: var(--white);
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+@media only screen and (min-width: 768px) {
+    main{
+        width: 40%;    
+    }
+
+.profile-details{
+    width: 80%;
+
+}
+
+
+.links{
+    width: 80%;
+    margin: auto;
+   margin-top: 30px;
+}
+
+
+
+}
