@@ -93,21 +93,21 @@ h4{
 }
 @media only screen and (min-width: 768px) {
     main{
-        width: 40%;    
+        width: 50%;    
     }
 
-.profile-details{
-    width: 80%;
+    .profile-details{
+        width: 80%;
+    }
+
+
+    .links{
+        width: 80%;
+        margin: auto;
+    margin-top: 30px;
+    }
+
+
 
 }
-
-
-.links{
-    width: 80%;
-    margin: auto;
-   margin-top: 30px;
-}
-
-
-
-}
+@media only screen and (min-width: 768px)
